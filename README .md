@@ -2,17 +2,14 @@
 
 > Quantifying the economic cost (or benefit) of ESG score variations on EBITDA — a statistical study on Schindler Group.
 
----
-
-## 📌 Overview
+## Overview
 
 This project explores the relationship between **ESG (Environmental, Social, and Governance) score variations** and **EBITDA performance** for **Schindler Group**, a global leader in elevators and escalators listed on the STOXX Europe 600 index.
 
 The analysis covers the period **2017–2022** and combines hypothesis testing, linear regression modeling, and Monte Carlo simulation to quantify the financial impact of ESG management.
 
----
 
-## 🧠 Methodology
+## Methodology
 
 ### 1. Data & Variables
 - **ESG scores** and **EBITDA** extracted from Refinitiv
@@ -38,9 +35,8 @@ Three OLS regression models estimated:
 - Based on Model 3 coefficients
 - Input variables (ΔESG, Leverage) drawn from normal distributions fitted on historical data
 
----
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 schindler-esg-financial-impact/
@@ -52,7 +48,7 @@ schindler-esg-financial-impact/
 
 ---
 
-## 🛠️ Libraries Used
+## Libraries Used
 
 | Library | Purpose |
 |---------|---------|
@@ -62,20 +58,17 @@ schindler-esg-financial-impact/
 | `statsmodels` | OLS regression models |
 | `matplotlib` | Data visualization |
 
----
 
-## 🏢 About Schindler Group
+## About Schindler Group
 
 Schindler is a Swiss multinational founded in 1874, operating in over 100 countries. It is one of the world's largest providers of elevators, escalators, and related services. The company is part of the **STOXX Europe 600 (SXXP)** index and is classified under the **Industrial Machinery & Equipment** sector.
 
----
 
-## 📚 Academic Context
+## Academic Context
 
 This project was completed as part of the **Fil Rouge case study** at ESCP Business School (2024–2025), under the supervision of F. Desmoulins-Lebeault and A. Guéniche.
 
----
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 Data used in this project was provided by the course professors for academic purposes only. Raw data files are not included in this repository.
